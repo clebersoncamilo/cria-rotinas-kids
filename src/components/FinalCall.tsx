@@ -72,6 +72,15 @@ export const FinalCall = () => {
           </div>
         </div>
 
+        {/* Additional CTA after bonus */}
+        <div className="mt-12">
+          <a href="https://lastlink.com/p/CC146052E/checkout-payment" target="_blank" rel="noopener noreferrer">
+            <Button className="w-full max-w-md bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
+              SIM, QUERO ADQUIRIR! 🚀
+            </Button>
+          </a>
+        </div>
+
         {/* Final urgency reminder */}
         <div className="mt-12 rounded-xl bg-red-100 border-2 border-red-300 p-6">
           <div className="flex items-center justify-center gap-2 text-red-700">

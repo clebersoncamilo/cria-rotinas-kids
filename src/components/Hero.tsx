@@ -18,16 +18,6 @@ export const Hero = () => {
         <div className="grid items-center gap-8 lg:grid-cols-2">
           {/* Left Content */}
           <div className="order-2 lg:order-1">
-            {/* Espaço para foto manual acima da palavra "Transforme" */}
-            <div className="mb-6 rounded-2xl bg-white/70 border-2 border-dashed border-gray-300 p-8 text-center">
-              <div className="text-gray-500 mb-2">
-                📸 Adicione sua foto aqui
-              </div>
-              <p className="text-sm text-gray-400">
-                Clique para adicionar uma imagem atrativa para a sua landing page
-              </p>
-            </div>
-
             <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
               Transforme{" "}
               <span className="rounded-lg bg-red-500 px-3 py-1 text-white">
