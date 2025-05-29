@@ -18,6 +18,16 @@ export const Hero = () => {
         <div className="grid items-center gap-8 lg:grid-cols-2">
           {/* Left Content */}
           <div className="order-2 lg:order-1">
+            {/* Espaço para foto manual acima da palavra "Transforme" */}
+            <div className="mb-6 rounded-2xl bg-white/70 border-2 border-dashed border-gray-300 p-8 text-center">
+              <div className="text-gray-500 mb-2">
+                📸 Adicione sua foto aqui
+              </div>
+              <p className="text-sm text-gray-400">
+                Clique para adicionar uma imagem atrativa para a sua landing page
+              </p>
+            </div>
+
             <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
               Transforme{" "}
               <span className="rounded-lg bg-red-500 px-3 py-1 text-white">
@@ -51,16 +61,18 @@ export const Hero = () => {
                 de <span className="line-through">R$ 67,00</span> por somente...
               </p>
               <div className="text-5xl font-bold text-green-600 md:text-6xl">
-                R$ 10,00
+                R$ 14,90
               </div>
               <p className="mt-2 text-red-600 font-semibold">
                 ⏰ Oferta por tempo limitado!
               </p>
             </div>
 
-            <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
-              SIM, QUERO ADQUIRIR! 🚀
-            </Button>
+            <a href="https://lastlink.com/p/CC146052E/checkout-payment" target="_blank" rel="noopener noreferrer">
+              <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
+                SIM, QUERO ADQUIRIR! 🚀
+              </Button>
+            </a>
 
             {/* Trust indicators */}
             <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-gray-600">

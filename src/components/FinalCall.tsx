@@ -19,11 +19,13 @@ export const FinalCall = () => {
           </p>
         </div>
 
-        {/* Tertiary CTA */}
+        {/* Final CTA */}
         <div className="mb-12">
-          <Button className="w-full max-w-md bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
-            SIM, QUERO ADQUIRIR! 🚀
-          </Button>
+          <a href="https://lastlink.com/p/CC146052E/checkout-payment" target="_blank" rel="noopener noreferrer">
+            <Button className="w-full max-w-md bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
+              SIM, QUERO ADQUIRIR! 🚀
+            </Button>
+          </a>
         </div>
 
         {/* Bonus section */}

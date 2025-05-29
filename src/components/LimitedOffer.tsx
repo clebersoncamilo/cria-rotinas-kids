@@ -1,17 +1,8 @@
 
-import { Button } from "@/components/ui/button";
-
 export const LimitedOffer = () => {
   return (
     <section className="bg-gradient-to-b from-blue-50 to-purple-50 px-4 py-16">
       <div className="container mx-auto max-w-6xl">
-        {/* Secondary CTA */}
-        <div className="mb-12 text-center">
-          <Button className="w-full max-w-md bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
-            SIM, QUERO ADQUIRIR! 🚀
-          </Button>
-        </div>
-
         {/* Limited time offer headline */}
         <div className="mb-12 text-center">
           <h2 className="text-4xl font-bold text-red-600 md:text-5xl animate-pulse">

@@ -1,5 +1,4 @@
 
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Users } from "lucide-react";
@@ -39,13 +38,6 @@ export const SocialProof = () => {
   return (
     <section className="bg-gradient-to-b from-white to-green-50 px-4 py-16">
       <div className="container mx-auto max-w-6xl">
-        {/* Primary CTA */}
-        <div className="mb-12 text-center">
-          <Button className="w-full max-w-md bg-gradient-to-r from-green-500 to-green-600 py-4 text-xl font-bold hover:from-green-600 hover:to-green-700 md:py-6">
-            SIM, QUERO ADQUIRIR! 🚀
-          </Button>
-        </div>
-
         {/* Social proof counter */}
         <div className="mb-12 text-center">
           <Badge className="mb-4 bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-2 text-lg text-white">
